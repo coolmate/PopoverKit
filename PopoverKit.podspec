@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author             = { "archerzz" => "archerzz.work@gmail.com" }
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/ZionChang/PopoverKit.git", :tag => s.version }
-  s.source_files  = "Sources/*.swift"
+  s.source_files  = "Sources/**/*.swift"
   s.requires_arc = true
   s.framework = "UIKit"
 
